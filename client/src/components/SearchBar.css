@@ -1,0 +1,31 @@
+input {
+    padding: 6px;
+    border-radius: 3px;
+    border-color: #ffea00;
+    background: #ffea00;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #1480a3;
+    font-weight: bold;
+}
+
+.btn_search {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    background: #ffea00;
+    border-color: #ffea00;
+    color: #1480a3;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn_search:hover {
+    color:#1480a3; ;
+    background: none;
+    border-color:#1480a3; ;
+}

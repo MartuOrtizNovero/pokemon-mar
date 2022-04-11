@@ -1,0 +1,86 @@
+.container_all {
+    background: #ffffff;
+    padding: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid #1480a3;
+    text-align: center;
+}
+.btn_home{
+    text-decoration: none;
+    cursor: pointer;
+    color: #1480a3;
+    border: 1px solid #ffea00;
+    padding: 5px;
+    border-radius: 4px;
+    background: #ffea00;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn_home:hover {
+    color: #ffea00;
+    background: #116d8a9d;
+}
+.btn_create{
+    color:  #1480a3;
+}
+.input_form {
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.error {
+    margin: 0;
+    padding: 0;
+    color: #9e2a2b;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.type_container {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.list_types {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_x {
+    /* margin-left: 8px; */
+    /* padding: 5px; */
+    color: #9e2a2b;
+    border-color: #9e2a2b;
+    background: none;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn_x:hover {
+    background: #9e2a2b;
+    color: #ffffff;
+}
+
+.type {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}

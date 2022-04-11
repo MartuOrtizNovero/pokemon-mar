@@ -1,0 +1,131 @@
+body {
+    background-image: url('./images/bg12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.landing_title {
+    color: #1480a3;
+    font-size: 55px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.landing_btn {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #1480a3;
+    cursor: pointer;
+    background: #ffea00;
+    transform: translateX(220%);
+    border: 2px solid #ffea00;
+    transition: all 0.3s ease;
+}
+
+.landing_btn:hover {
+    color: #ffea00;
+    background: #1f799e;
+}
+
+.footer {
+    text-align: center;
+    color: #ffffff;
+    bottom: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    position: fixed;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social, .item_1, .item_2, .item_3{
+    display: flex;
+}
+
+.linkedin {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0077b6;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.a_1 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.a_1:hover {
+    color: #0077b6;
+    text-decoration: underline;
+}
+
+.github {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.a_2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.a_2:hover {
+    color: #adb5bd;
+    text-decoration: underline;
+}
+
+.whatsapp {
+    cursor: pointer;
+    text-decoration: none;
+    color: #38b000;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.a_3 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.a_3:hover {
+    color: #38b000;
+    text-decoration: underline;
+}
+
+.mi_nombre{
+    color: #429ab5b4;
+    margin-left: 400px;
+}
